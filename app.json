@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "ReactDex",
-    "slug": "ReactDex",
+    "slug": "pokedex",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d88bc50e-e59a-46d4-943b-07d663488be7"
+      }
+    },
+    "owner": "rafaelgoncalves"
   }
 }
