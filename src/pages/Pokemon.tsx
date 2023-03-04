@@ -370,9 +370,6 @@ export default function Pokemon({ route }: PokemonProps) {
                 </View>
               </ScrollView>
 
-
-
-
               <View className="px-8 mt-6">
                 {pokemon.moves
                   .filter((move: any) => {
